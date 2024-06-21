@@ -11,6 +11,7 @@ import Star from "../pages/manage/star";
 import Trash from "../pages/manage/trash";
 import Edit from "../pages/question/edit";
 import Stat from "../pages/manage/star";
+import NotFund from "../pages/not_fund";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
         },
     ]
   },
+  {
+    path:"*",
+    element:<NotFund></NotFund>
+  }
 ]);
 
 export default router;

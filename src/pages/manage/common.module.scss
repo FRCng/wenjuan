@@ -1,11 +1,13 @@
 .header{
     display: flex;
+    align-items: center;
     .left{
         flex:1;
     }
     .right{
         flex:1;
         text-align: right;
+        padding-right: 38px;
     }
 }
 .container{

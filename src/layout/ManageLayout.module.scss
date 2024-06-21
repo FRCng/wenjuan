@@ -1,14 +1,22 @@
 .manage-box{
     display: flex;
+    height: 100%;
     justify-content: space-between;
     &-left{
         width: 30%;
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 100px;
+        height: 100%;
+        button{
+            width: 100px;
+            margin: 10px auto;
+        }
     }
     &-right{
-        flex:1;
+        width: 70%;
+        height: 100%;
+        margin-right: 100px;
     }
 }
 
