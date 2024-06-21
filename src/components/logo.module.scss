@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+  h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    line-height: 64px;
+  }
+}
+::v-deep .ant-space-item {
+  display: flex;
+}
